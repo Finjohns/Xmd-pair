@@ -1,4 +1,4 @@
-const mega = require("megajs");
+cost mega = require("megajs");
 const auth = {
     email: 'tyloromondi@gmail.com',
     password: 'tylor1234',
