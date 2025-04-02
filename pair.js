@@ -63,14 +63,14 @@ router.get('/', async (req, res) => {
                         return `${result}${number}`;
                         }
 
-            const myr = await XpbotsPair.sendMessage(XpbotsPair.user.id, { text: "*BELLAH XMD SESSION ID BELOW*" });
+            const myr = await XpbotsPair.sendMessage(XpbotsPair.user.id, { text: "*ꜰɪɴᴊᴏʜɴꜱ XMD SESSION ID 👇🏾👇🏾 DOWN DON'T SHARE WITH UNTRUSTED PEOPLE*" });
                         const mega_url = await upload(fs.createReadStream(auth_path + 'creds.json'), `${randomMegaId()}.json`);
 
-                        const string_session = mega_url.replace('https://mega.nz/file/', 'Bellah~');
+                        const string_session = mega_url.replace('https://mega.nz/file/', 'ꜰɪɴᴊᴏʜɴꜱ~');
 
                         const sid = string_session;
 
-  const dt = await XpbotsPair.sendMessage(XpbotsPair.user.id, { image: { url: "https://i.imgur.com/yZN5Ynv.jpeg" }, caption: `${sid}` }, { quoted: myr });
+  const dt = await XpbotsPair.sendMessage(XpbotsPair.user.id, { image: { url: "https://files.catbox.moe/rl4qpe.jpg" }, caption: `${sid}` }, { quoted: myr });
 
                     } catch (e) {
                         process.exit(1); 
